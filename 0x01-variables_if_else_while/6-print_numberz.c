@@ -6,7 +6,7 @@
 
 /**
  * main - Prints all the single digit nu,bers of base 10 starting from 0,
- * 	  only using putchar and without char variables.
+ * only using putchar and without char variables.
  *
  * Return: Always 0.
  */
