@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *puts2 - prints even characters of a string
@@ -9,22 +8,24 @@
  *Return:void
  *
  */
+
 void puts2(char *str)
 {
-	int i = 0;
+	int count = 0, i;
 
-	while (*str != '\0')
+	while (count >= 0)
 	{
-		i++;
-		str++;
+		if (str[count] == '\0')
+			break;
+		count++;
 	}
 
-	str -= (i / 2);
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
+	if (count % 2 == 1)
+		i = count / 2;
+	else
+		i = (count - 1) / 2;
 
+	for (i++; i < count; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
