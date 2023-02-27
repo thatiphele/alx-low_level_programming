@@ -7,6 +7,7 @@
  * @n: int type integer
  * Description: Numbers must be seperated by comma and space.
  * I can only use _putchar to print.
+ * Return: Always 0.
  */
 
 void print_array(int *a, int n)
