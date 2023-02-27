@@ -7,22 +7,20 @@
  * @n: int type integer
  * Description: Numbers must be seperated by comma and space.
  * I can only use _putchar to print.
- * Return: Always 0.
+ * Return: no return.
  */
 
 void print_array(int *a, int n)
 {
 	int i;
 
-	i = 0;
-	for (n--; n >= 0; i++)
+	
+	for (i = 0; i < n; i++)
 	{
-		printf("%d", a[i]);
-		if (n > 0)
-		{
+		printf("%d", *(a + i));
+
+		if (i != (n -1))
 			printf(", ");
-		}
 	}
 	printf("\n");
-
 }
