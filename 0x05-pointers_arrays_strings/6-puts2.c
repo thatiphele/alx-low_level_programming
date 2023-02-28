@@ -1,6 +1,5 @@
-Task 6:
+#include "main.h"
 
-#include "holberton.h"
 /**
  *puts2 - prints even characters of a string
  *
