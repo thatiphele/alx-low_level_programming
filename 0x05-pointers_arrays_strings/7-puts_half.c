@@ -11,21 +11,20 @@
 
 void puts2(char *str)
 {
-	int count = 0, i;
+	int count = 0;
 
 	while (count >= 0)
 	{
-		if (str[count] == '\0')
-			break;
 		count++;
+		str++;
 	}
 
-	if (count % 2 == 1)
-		i = count / 2;
-	else
-		i = (count - 1) / 2;
+	str -= (count / 2);
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
 
-	for (i++; i < count; i++)
-		_putchar(str[i]);
 	_putchar('\n');
 }
