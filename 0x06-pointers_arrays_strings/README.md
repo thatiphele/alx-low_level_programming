@@ -32,5 +32,11 @@ No using long,arrays or pointers nor hard-code special values.
 (comma),the standard library nor code anything else than the line of expected line of code at the expected line. The code should be written at line 19, before the ; No removing anything from
 the initial code (not even the comments) and don’t change anything but the line of code I add (no changing the spaces to tabs!) 
 
+103-infinite_add.c A function that prints an integer. I can only use _putchar function to print.
+No using long,arrays or pointers nor hard-code special values.
+
+104-print_buffer.c A function that prints a buffer using the standard library. It must print the content of size bytes of the buffer pointed by b
+The output should print 10 bytes per line
+Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0,show the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space,show the content of the buffer. If the byte is a printable character, print the letter, if not, print . and end with a new line \n. f size is 0 or less, the output should be a new line only \nThe output should look like the following example, and formatted exactly the same way as the main.c file.
 
 
