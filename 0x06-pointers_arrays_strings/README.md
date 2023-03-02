@@ -25,3 +25,12 @@ Letters l and L should be replaced by 1.
 100-rot13.c A function that encodes a string using rot13.I'm limited to 1 if statement and 2 loops in my code.
 No using switch statement or any ternary operation.
 
+101-print_number.c A function that prints an integer. I can only use _putchar function to print.
+No using long,arrays or pointers nor hard-code special values.
+
+102-magic.c Add one line to this code, so that the program prints a[2] = 98, followed by a new line using one statement. No using the variable a in the new line of code, modifying the variable p, using ,
+(comma),the standard library nor code anything else than the line of expected line of code at the expected line. The code should be written at line 19, before the ; No removing anything from
+the initial code (not even the comments) and don’t change anything but the line of code I add (no changing the spaces to tabs!) 
+
+
+
