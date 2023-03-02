@@ -31,7 +31,7 @@ void print_number(int num)
 		}
 		if (!(x >= 1000000000) || y > 100000000)
 		if (!(x == 1000000000) || y == 123456789)
-			d /= 10;
+			x /= 10;
 		_putchar('0' + y / x);
 		while (x != 10)
 		{
