@@ -6,6 +6,7 @@ int pal_checker(char *s, int i, int len);
 /**
  * is_palindrome - Verifies if an inputed string is a palindrome or not.
  * @s: The string to reverse.
+ * pal_ checker - Checks characters recursively for a palindrome.
  * Return: 1 if it is a palindrome,else 0 if it's not a palindrome.
  */
 
@@ -30,7 +31,7 @@ int recursion_str_len(char *s)
 }
 
 /**
- * pal_ checker - Checks characters recursively for a palindrome.
+ * pal_checker - Checks characters recursively for a palindrome.
  * @length: Length of string.
  * @s: The recursive string checker.
  * @x: The iterator.
